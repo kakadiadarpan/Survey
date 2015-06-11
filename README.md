@@ -27,6 +27,6 @@ For accessing all the questions and adding a new question:
 
 For accessing individual question and editing/deleting them:
 
-'localhost:8000/questionbank/question/<id>' - this will show all the question with the id = <id>. An existing question can be deleted/edited from here.
+'localhost:8000/questionbank/question/id' - this will show the question with the id in the URL. An existing question can be deleted/edited from here.
 
 The sequence of the questions can only be defined from Django-Admin panel. 2 or more questions cannot have the same sequence number, this error will be only shown when a question is either added/edited from Django Admin panel. When a question is created through the API, the default value of number will be 0.
